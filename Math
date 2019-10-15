@@ -1,0 +1,35 @@
+//Yogha Ruepini a/p Kanagalingam B031910405
+//Lab Week 5: Using some library functions, arithmetic, and more
+
+#include<iostream>
+#include<cmath>
+#include<iomanip>
+#include<string>
+using namespace std;
+
+int main()
+{
+	string name;
+
+	cout << "Please enter your name: ";
+	getline(cin, name);
+	cout << "Your name is " << name << endl;
+
+	int x, z;
+	double y = 0.0;
+
+	cout << "Please enter a value of x: ";
+	cin >> x;
+	cout << "Please enter a value of z: ";
+	cin >> z;
+
+	if (x > 0 && z > 0)
+	{
+		y = x / pow(z, 2) + 2;
+		cout << "The answer of y=(x/(z*z))+2 is " << setprecision(4) << y << endl;
+	}
+	else
+		cout << "You have entered a wrong value. Answer can't be calculated." << endl;
+
+	return 0;
+
