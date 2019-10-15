@@ -1,5 +1,4 @@
 //Yogha Ruepini a/p Kanagalingam B031910405
-//Lab Week 5: Using some library functions, arithmetic, and more
 
 #include<iostream>
 #include<cmath>
@@ -32,4 +31,3 @@ int main()
 		cout << "You have entered a wrong value. Answer can't be calculated." << endl;
 
 	return 0;
-
